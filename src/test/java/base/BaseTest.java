@@ -23,7 +23,7 @@ public class BaseTest {
 
 	@AfterMethod
 	public void takeScreenShotOnFailure(ITestResult testResult) throws IOException {
-		if (testResult.getStatus() == ITestResult.SUCCESS) {
+		if (testResult.getStatus() == ITestResult.FAILURE) {
 			Allure.addAttachment("Any text",
 					new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 		}
