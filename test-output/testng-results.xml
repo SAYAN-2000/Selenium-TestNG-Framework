@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-16T16:10:57 IST" name="Default suite" finished-at="2023-01-16T16:11:11 IST" duration-ms="14114">
+    <groups>
+    </groups>
+    <test started-at="2023-01-16T16:10:57 IST" name="Default test" finished-at="2023-01-16T16:11:11 IST" duration-ms="14114">
+      <class name="tests.TC_03ValidatingtheFilterSection">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:10:58 IST" name="startDriver" finished-at="2023-01-16T16:11:00 IST" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:01 IST" name="FilteranIteminDecreasingOrder" data-provider="filter_data" finished-at="2023-01-16T16:11:03 IST" duration-ms="2069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Name (Z to A)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilteranIteminDecreasingOrder -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:03 IST" name="takeScreenShotOnFailure" finished-at="2023-01-16T16:11:03 IST" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FilteranIteminDecreasingOrder status=SUCCESS method=TC_03ValidatingtheFilterSection.FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:03 IST" name="teardown" finished-at="2023-01-16T16:11:03 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:03 IST" name="startDriver" finished-at="2023-01-16T16:11:04 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:04 IST" name="FilteranIteminDecreasingOrder" data-provider="filter_data" finished-at="2023-01-16T16:11:06 IST" duration-ms="2048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sauce Labs Onesie, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Test.allTheThings() T-Shirt (Red), Sauce Labs Backpack, Sauce Labs Fleece Jacket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Price (low to high)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilteranIteminDecreasingOrder -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:06 IST" name="takeScreenShotOnFailure" finished-at="2023-01-16T16:11:06 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FilteranIteminDecreasingOrder status=SUCCESS method=TC_03ValidatingtheFilterSection.FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:06 IST" name="teardown" finished-at="2023-01-16T16:11:06 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:06 IST" name="startDriver" finished-at="2023-01-16T16:11:07 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:07 IST" name="FilteranIteminDecreasingOrder" data-provider="filter_data" finished-at="2023-01-16T16:11:08 IST" duration-ms="1184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sauce Labs Fleece Jacket, Sauce Labs Backpack, Sauce Labs Bolt T-Shirt, Test.allTheThings() T-Shirt (Red), Sauce Labs Bike Light, Sauce Labs Onesie]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Price (high to low)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilteranIteminDecreasingOrder -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:08 IST" name="takeScreenShotOnFailure" finished-at="2023-01-16T16:11:08 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FilteranIteminDecreasingOrder status=SUCCESS method=TC_03ValidatingtheFilterSection.FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:08 IST" name="teardown" finished-at="2023-01-16T16:11:09 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:09 IST" name="startDriver" finished-at="2023-01-16T16:11:09 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:09 IST" name="FilteranIteminDecreasingOrder" data-provider="filter_data" finished-at="2023-01-16T16:11:10 IST" duration-ms="945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Name (A to Z)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilteranIteminDecreasingOrder -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:10 IST" name="takeScreenShotOnFailure" finished-at="2023-01-16T16:11:10 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FilteranIteminDecreasingOrder status=SUCCESS method=TC_03ValidatingtheFilterSection.FilteranIteminDecreasingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TC_03ValidatingtheFilterSection@75b3673]" started-at="2023-01-16T16:11:10 IST" name="teardown" finished-at="2023-01-16T16:11:11 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.TC_03ValidatingtheFilterSection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
