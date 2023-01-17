@@ -16,7 +16,7 @@
 					<version>2.20</version>
 					<configuration>
 						<argLine>
-                    -javaagent:"${settings.localRepository}\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar"
+                    -javaagent:"${settings.localRepository}\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar"
                 </argLine>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
