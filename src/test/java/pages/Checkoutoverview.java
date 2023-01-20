@@ -17,7 +17,6 @@ public Checkoutoverview(WebDriver driver) {
 private By finish = By.cssSelector("button[id='finish']");
 
 @SuppressWarnings("deprecation")
-@Step("Click Finish")
 public void clickFinish()
 {
 	this.driver.findElement(finish).click();
