@@ -27,26 +27,22 @@ public class Shoppingpage extends BasePage {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Step("Getting the item Name")
 	public String getname() {
 		return this.driver.findElement(getitemname).getText();
 	}
 
 	@SuppressWarnings("deprecation")
-	@Step("Click Add to Cart")
 	public void clickaddtocart() {
 		this.driver.findElement(addtocart).click();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	@SuppressWarnings("deprecation")
-	@Step("Click cart Icon")
 	public void clickcarticon() {
 		this.driver.findElement(cartbtn).click();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
-	@Step("Get All Items according to Filter Data")
 	public List<String> printItems(String arg) {
 		System.out.println("==========================================");
 		System.out.println("The Output List Sorted By "+arg+" is-> ");
@@ -61,7 +57,6 @@ public class Shoppingpage extends BasePage {
 	}
 
 	@SuppressWarnings("deprecation")
-	@Step("Click the Filter Dropdown accordingly")
 	public void clickandSort(String param) {
 		Select desc = new Select(driver.findElement(sort_btn));
 		desc.selectByVisibleText(param);
@@ -69,7 +64,6 @@ public class Shoppingpage extends BasePage {
 
 	}
 	
-	@Step("Get Logo From Text")
 	public String getlogotext() {
 		return driver.findElement(logo).getText();
 	}
