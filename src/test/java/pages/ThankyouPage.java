@@ -12,7 +12,6 @@ public class ThankyouPage extends BasePage {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	@Step("Getting Logo Text")
 	public String getLogo()
 	{
 		return this.driver.findElement(logo).getText();
