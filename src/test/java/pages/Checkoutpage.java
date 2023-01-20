@@ -21,26 +21,22 @@ public class Checkoutpage extends BasePage {
 		super(driver);
 	}
 	
-	@Step("Filling first-name")
 	public void fillFirstname(String a)
 	{
 		this.driver.findElement(fname).sendKeys(a);		
 	}
 	
-	@Step("Filling last-name")
 	public void fillLastname(String a)
 	{
 		this.driver.findElement(lname).sendKeys(a);
 	}
 	
-	@Step("Filling Postal-code")
 	public void fillPostalcode(String a)
 	{
 		this.driver.findElement(postalcode).sendKeys(a);
 	}
 	
 	@SuppressWarnings("deprecation")
-	@Step("Click Continue")
 	public void clickcont()
 	{
 		this.driver.findElement(cont).click();
@@ -48,7 +44,6 @@ public class Checkoutpage extends BasePage {
 	}
 	
 	@SuppressWarnings("deprecation")
-	@Step("Click Cancel Button")
 	public void clickcancel()
 	{
 		this.driver.findElement(cancel).click();
