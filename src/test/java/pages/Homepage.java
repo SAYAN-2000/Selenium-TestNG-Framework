@@ -21,7 +21,6 @@ public class Homepage extends BasePage {
 	
 	
 	@SuppressWarnings("deprecation")
-	@Step("Navigating to the URL")
 	public String geturl()
 	{
 		driver.get(urls.geturl());
@@ -30,7 +29,6 @@ public class Homepage extends BasePage {
 		
 	}
 	
-	@Step("Filling Login Credentials")
 	public void fillDetails(String usr, String pwd)
 	{
 		this.driver.findElement(username).sendKeys(usr);
@@ -38,14 +36,12 @@ public class Homepage extends BasePage {
 	}
 	
 	@SuppressWarnings("deprecation")
-	@Step("Click Login Button")
 	public void clickLogin()
 	{
 		this.driver.findElement(loginBtn).click();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
-	@Step("Get Message")
 	public String getmessage()
 	{
 		return this.driver.findElement(message).getText();
