@@ -18,13 +18,11 @@ public class Cartpage extends BasePage {
 	}
 
 	@SuppressWarnings("deprecation")
-	@Step("Click Checkout")
 	public void clickcheckout() {
 		driver.findElement(checkout).click();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
-
-	@Step("Get Bag Text")
+	
 	public String getbag() {
 		String ans = driver.findElement(bag).getText();
 		return ans;
