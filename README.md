@@ -1,8 +1,10 @@
 # Selenium-TestNG-Framework
-# Overview
-Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite. Selenium can be easily deployed on platforms such as Windows, Linux, Solaris and Macintosh. Moreover, it supports OS (Operating System) for mobile applications like iOS, windows mobile and android. Selenium supports a variety of programming languages through the use of drivers specific to each language.Languages supported by Selenium include C#, Java, Perl, PHP, Python and Ruby.Currently, Selenium Web driver is most popular with Java and C#. Selenium test scripts can be coded in any of the supported programming languages and can be run directly in most modern web browsers. Browsers supported by Selenium include Internet Explorer, Mozilla Firefox, Google Chrome and Safari.
+## Scenarios Covered
 
- Selenium can be used to automate functional tests and can be integrated with automation test tools such as **Maven**, **Jenkins**, **& Docker** to achieve continuous testing. It can also be integrated with tools such as **TestNG**, & **JUnit** for managing test cases and generating reports.
+ - **Logging in Using Username and Password** **-** We Login into the application by using the correct username and password and verify it accordingly.
+ - **Add to Cart Scenario -** In this scenario we navigate to the products page and then we pick a product and then click ADD TO CART Button to add it to cart. Then we click on the cart icon to check whether it is added to cart or not.
+ - **Validating the Filter Section -** Here, we filter the list of products and validate it accordingly. 
+ - **End-to-End Scenario -** In this scenario, we add a product to cart, proceed to payment and navigate until we reach the ThankYou page.
 
 # About
 In this project I have taken the [Swag Labs Application](https://www.saucedemo.com/) and ran tests on it through Automation to validate different scenarios.
